@@ -11,15 +11,15 @@ def main():
 
     # tickets_remaining is the variable that tells how many
     # tickets are left to sell.
-    ticketsRemaining = 10
+    ticketsLeft = 10
 
     # Using a while loop to make sure tickets are being sold
     # until tickets_remaining = 0.
-    while ticketsRemaining > 0:
+    while ticketsLeft > 0:
 
         # Calls the sell_tickets function to sell tickets.
-        ticketsRemaining = sell_tickets(ticketsRemaining)
-        print(f'There are {ticketsRemaining} tickets left to sell.')
+        ticketsLeft = sell_tickets(ticketsLeft)
+        print(f'There are {ticketsLeft} tickets left to sell.')
 
     # This message prints when all tickets have been sold
     # and the program finishes successfully.
