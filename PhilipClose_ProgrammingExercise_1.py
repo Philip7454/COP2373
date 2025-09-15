@@ -37,7 +37,7 @@ def sell_tickets(tickets):
         try:
 
             # Asks the user how many tickets they are buying.
-            ticketsBought = int(input('How many tickets would you like to buy? '))
+            ticketsBought = int(input('Say how many tickets you would like to buy. '))
 
             # raise errors if a number greater than 4 and less than
             # 1 is entered or if there aren't enough tickets to sell
