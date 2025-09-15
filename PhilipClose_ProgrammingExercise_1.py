@@ -11,7 +11,7 @@ def main():
 
     # tickets_remaining is the variable that tells how many
     # tickets are left to sell.
-    ticketsRemaining = 10
+    ticketsRemaining = 11
 
     # Using a while loop to make sure tickets are being sold
     # until tickets_remaining = 0.
